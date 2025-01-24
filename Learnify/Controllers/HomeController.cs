@@ -23,8 +23,12 @@ namespace Learnify.Controllers
             return View();
         }
 
-        public IActionResult about
-            ()
+        public IActionResult about()
+        {
+            return View();
+        }
+
+        public IActionResult register()
         {
             return View();
         }
