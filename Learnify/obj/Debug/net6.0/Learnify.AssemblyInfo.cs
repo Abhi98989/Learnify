@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Learnify")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ed9dc9936d8c1c65466da12189dd9bb31d3051a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Learnify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Learnify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
