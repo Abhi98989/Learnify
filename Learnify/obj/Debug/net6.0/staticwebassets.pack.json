@@ -1,676 +1,672 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Learnify.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Learnify.ial8ybs2he.bundle.scp.css"
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Learnify.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Learnify.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\css\\main.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\apple-touch-icon.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-1.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-1.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-2.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-2.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-3.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-3.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-4.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-4.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-5.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-5.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-6.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-6.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-7.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-7.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-8.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\clients\\client-8.png",
       "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\cta-bg.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\cta-bg.jpg",
       "PackagePath": "staticwebassets\\img\\cta-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\favicon.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\favicon.png",
       "PackagePath": "staticwebassets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\hero-img.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\hero-img.png",
       "PackagePath": "staticwebassets\\img\\hero-img.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\logo.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-1.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-1.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-1.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-2.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-2.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-2.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-3.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-3.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-3.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-4.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-4.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-4.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-5.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-5.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-5.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-6.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-6.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-6.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-7.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-7.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-7.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-8.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-8.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-8.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-9.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\masonry-portfolio\\masonry-portfolio-9.jpg",
       "PackagePath": "staticwebassets\\img\\masonry-portfolio\\masonry-portfolio-9.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\portfolio\\app-1.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\portfolio\\app-1.jpg",
       "PackagePath": "staticwebassets\\img\\portfolio\\app-1.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\portfolio\\books-1.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\portfolio\\books-1.jpg",
       "PackagePath": "staticwebassets\\img\\portfolio\\books-1.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\portfolio\\branding-1.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\portfolio\\branding-1.jpg",
       "PackagePath": "staticwebassets\\img\\portfolio\\branding-1.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\portfolio\\product-1.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\portfolio\\product-1.jpg",
       "PackagePath": "staticwebassets\\img\\portfolio\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\services.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\services.jpg",
       "PackagePath": "staticwebassets\\img\\services.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\skills.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\skills.png",
       "PackagePath": "staticwebassets\\img\\skills.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\team\\team-1.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\team\\team-2.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team-2.jpg",
       "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\team\\team-3.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team-3.jpg",
       "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\team\\team-4.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team-4.jpg",
       "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
       "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
       "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
       "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-5.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\img\\why-us.png",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\why-us.png",
       "PackagePath": "staticwebassets\\img\\why-us.png"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\scss\\Readme.txt",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\scss\\Readme.txt",
       "PackagePath": "staticwebassets\\scss\\Readme.txt"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.cjs.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.cjs.js",
       "PackagePath": "staticwebassets\\vendor\\aos\\aos.cjs.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.css",
       "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.esm.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.esm.js",
       "PackagePath": "staticwebassets\\vendor\\aos\\aos.esm.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.js",
       "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\aos\\aos.js.map",
       "PackagePath": "staticwebassets\\vendor\\aos\\aos.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
       "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
       "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\prb.txt",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\css\\prb.txt",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\prb.txt"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
       "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
       "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
       "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
       "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
       "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
       "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\php-email-form\\validate.js",
       "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
       "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
       "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
       "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\HP\\OneDrive\\Pictures\\Screenshots\\Desktop\\learnify\\Learnify\\Learnify\\wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
       "PackagePath": "staticwebassets\\vendor\\waypoints\\noframework.waypoints.js"
-    },
-    {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Learnify.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Learnify.Microsoft.AspNetCore.StaticWebAssets.props",
