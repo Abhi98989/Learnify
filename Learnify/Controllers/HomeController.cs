@@ -18,7 +18,21 @@ namespace Learnify.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult about()
+        {
+            return View();
+        }
+   
+        public IActionResult Ourcourses()
+        {
+            return View();
+        }
+        public IActionResult register()
         {
             return View();
         }
