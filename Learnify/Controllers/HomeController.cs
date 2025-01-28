@@ -27,7 +27,11 @@ namespace Learnify.Controllers
         {
             return View();
         }
-
+   
+        public IActionResult Ourcourses()
+        {
+            return View();
+        }
         public IActionResult register()
         {
             return View();
