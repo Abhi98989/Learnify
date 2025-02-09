@@ -27,10 +27,10 @@ wwwroot\img\portfolio\branding-1.jpg
 wwwroot\img\portfolio\product-1.jpg
 wwwroot\img\services.jpg
 wwwroot\img\skills.png
-wwwroot\img\team\team-1.jpg
-wwwroot\img\team\team-2.jpg
-wwwroot\img\team\team-3.jpg
-wwwroot\img\team\team-4.jpg
+wwwroot\img\team\team1.jpg
+wwwroot\img\team\team2.jpg
+wwwroot\img\team\team3.jpg
+wwwroot\img\team\team4.jpg
 wwwroot\img\testimonials\testimonials-1.jpg
 wwwroot\img\testimonials\testimonials-2.jpg
 wwwroot\img\testimonials\testimonials-3.jpg
