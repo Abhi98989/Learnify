@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3f6S3uPOwQQt+CxUFazz0+lGhkp0Krp6OuTD0tWM2U0=",
+  "Hash": "bORjRu9e50j4Pis+kLDK308BW5HhBlRL4zIfAolYQIc=",
   "Source": "Learnify",
   "BasePath": "_content/Learnify",
   "Mode": "Default",
@@ -606,12 +606,12 @@
       "OriginalItemSpec": "wwwroot\\img\\skills.png"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team-1.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team1.jpg",
       "SourceId": "Learnify",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\",
       "BasePath": "_content/Learnify",
-      "RelativePath": "img/team/team-1.jpg",
+      "RelativePath": "img/team/team1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -622,15 +622,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\team\\team-1.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\team\\team1.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team-2.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team2.jpg",
       "SourceId": "Learnify",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\",
       "BasePath": "_content/Learnify",
-      "RelativePath": "img/team/team-2.jpg",
+      "RelativePath": "img/team/team2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,15 +641,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\team\\team-2.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\team\\team2.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team-3.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team3.jpg",
       "SourceId": "Learnify",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\",
       "BasePath": "_content/Learnify",
-      "RelativePath": "img/team/team-3.jpg",
+      "RelativePath": "img/team/team3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\team\\team-3.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\team\\team3.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team-4.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\team\\team4.jpg",
       "SourceId": "Learnify",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\",
       "BasePath": "_content/Learnify",
-      "RelativePath": "img/team/team-4.jpg",
+      "RelativePath": "img/team/team4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -679,7 +679,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\team\\team-4.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\team\\team4.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\Learnify\\Learnify\\wwwroot\\img\\testimonials\\testimonials-1.jpg",

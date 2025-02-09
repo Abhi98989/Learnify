@@ -6,20 +6,19 @@
 
 </style>
 <div class="align-text-top alert"> 
-    <p> Incorrect UserName or password</p>
+    <p> Incorrect email or password</p>
 
 </div>
 <div class="tab-content" style="margin-top:200px">
     <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login" >
         <h1>Admin Login</h1>
-        <form method="post" asp-controller="Admin" asp-action="index">
-
+        <form method="post" asp-controller="Home" asp-action="Login">
             <div data-mdb-input-init class="form-outline mb-4">
-                <input type="text" asp-for="username" id="loginName" class="form-control" />
+                <input type="email" asp-for="email"  class="form-control" />
                 <label class="form-label" for="loginName">Email or username</label>
             </div>
             <div data-mdb-input-init class="form-outline mb-4">
-                <input type="password" asp-for="password" id="loginPassword" class="form-control" />
+                <input type="password" asp-for="password"  class="form-control" />
                 <label class="form-label" for="loginPassword">Password</label>
             </div>
             <div class="row mb-4">
