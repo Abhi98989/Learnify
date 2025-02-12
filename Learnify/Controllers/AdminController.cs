@@ -10,11 +10,19 @@ namespace Learnify.Controllers
             return View();
         }
         [HttpPost]
+<<<<<<< HEAD
         public IActionResult Index(loginDetails login)
         {
             if (ModelState.IsValid)
             {
                 if (login.email =="admin"&& login.password == "admin")
+=======
+        public IActionResult Index(loginDetails loginDetails)
+        {
+            if (ModelState.IsValid)
+            {
+                if (loginDetails.email =="admin"&& loginDetails.password == "admin")
+>>>>>>> 636a531ad454d211736c2951fb280396480bf2ec
                 {
                     return RedirectToAction("dashboard", "Admin");
                 }
