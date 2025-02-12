@@ -111,7 +111,7 @@ namespace Learnify.Controllers
 
 
         [HttpPost]
-        public IActionResult loginDetailsDetails(loginDetails lg)
+        public IActionResult Login(loginDetails lg)
 
         {
             if (lg == null)
