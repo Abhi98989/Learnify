@@ -22,7 +22,7 @@ namespace Learnify.Controllers
             return View();
         }
 
-        public IActionResult Login()
+        public IActionResult loginDetails()
         {
             return View();
         }
@@ -111,7 +111,7 @@ namespace Learnify.Controllers
 
 
         [HttpPost]
-        public IActionResult Login(login lg)
+        public IActionResult loginDetails(loginDetails lg)
 
         {
             if (lg == null)
@@ -122,7 +122,7 @@ namespace Learnify.Controllers
             {
                 using SqlConnection con = new SqlConnection(Dbcs);
                 {
-                    using SqlCommand cmd = new SqlCommand("User_Login", con);
+                    using SqlCommand cmd = new SqlCommand("User_loginDetails", con);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@email", lg.email);
                     cmd.Parameters.AddWithValue("@password", lg.password);
