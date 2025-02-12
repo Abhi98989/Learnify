@@ -1,7 +1,5 @@
 ﻿@model Learnify.Models.loginDetails;
 
-
-
 <section class="vh-100" style="background-color: #9A616D;">
     <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
@@ -14,30 +12,28 @@
                         </div>
                         <div class="col-md-6 col-lg-7 d-flex align-items-center">
                             <div class="card-body p-4 p-lg-5 text-black">
-                                <form  asp-controller="Home" asp-action="login"  method="post">
+                                <form asp-controller="Home" asp-action="Login" method="post">
                                     <div class="d-flex align-items-center mb-3 pb-1">
                                         <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
                                         <span class="h1 fw-bold mb-0">Logo</span>
                                     </div>
                                     <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
-                                    <div data-mdb-input-init class="form-outline mb-4">
-                                    <input type="email" asp-for="email" class="form-control form-control-lg" />
-                                    <label class="form-label" >Email address</label>
+                                    <div class="form-outline mb-4">
+                                        <input type="email" asp-for="email" class="form-control form-control-lg" required />
+                                        <label class="form-label">Email address</label>
                                     </div>
-                                    <div data-mdb-input-init class="form-outline mb-4">
-                                        <input type="password" asp-for="password" class="form-control form-control-lg" />
-                                    <label class="form-label" >Password</label>
+                                    <div class="form-outline mb-4">
+                                        <input type="password" asp-for="password" class="form-control form-control-lg" required />
+                                        <label class="form-label">Password</label>
                                     </div>
-                                    
-                                    <a class="small text-muted" href="#!">Forgot password?</a>
+                                    <button type="submit" class="btn btn-dark btn-lg btn-block">Login</button>
+                                    <a class="small text-muted d-block mt-3" href="#">Forgot password?</a>
                                     <p class="mb-5 pb-lg-2" style="color: #393f81;">
-                                        Don't have an account? <a href="/Home/register"
-                                                                  style="color: #393f81;">Register here</a>
+                                        Don't have an account? <a href="/Home/register" style="color: #393f81;">Register here</a>
                                     </p>
-                                    <a href="#!" class="small text-muted">Terms of use.</a>
-                                    <a href="#!" class="small text-muted">Privacy policy</a>
+                                    <a href="#" class="small text-muted">Terms of use.</a>
+                                    <a href="#" class="small text-muted">Privacy policy</a>
                                 </form>
-
                             </div>
                         </div>
                     </div>
