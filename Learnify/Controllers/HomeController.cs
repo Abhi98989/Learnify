@@ -22,7 +22,7 @@ namespace Learnify.Controllers
             return View();
         }
 
-        public IActionResult loginDetailsDetails()
+        public IActionResult login()
         {
             return View();
         }
