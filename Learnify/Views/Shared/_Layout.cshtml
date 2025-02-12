@@ -34,9 +34,9 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="/home" >Home</a></li>
-                    <li><a href="/home/About">About</a></li>
-                    <li><a href="/home/Ourcourses">Our Courses</a></li>
+                    <li><a asp-controller="Home" asp-action="Index" >Home</a></li>
+                    <li><a asp-controller="Home" asp-action="about">About</a></li>
+                    <li><a asp-controller="Home" asp-action="Ourcourses">Our Courses</a></li>
                     <li><a href="#team">Blogs</a></li>
                     <li><a href="home/Pricing">Pricing</a></li>
                     <li class="dropdown">
@@ -54,11 +54,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="home/Contact">Contact</a></li>
+                    <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
-            <a class="btn-getstarted" href="/Home/Login">Get Started</a>
+            <a class="btn-getstarted" asp-controller="Home" asp-action="login">Get Started</a>
 
         </div>
     </header>
