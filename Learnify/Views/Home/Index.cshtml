@@ -107,7 +107,7 @@
                     <p>
                         Learnify is built on the belief that education is a journey, not a destination. Whether you're looking to upskill for a career change or explore a new passion, we provide the tools and resources to help you succeed. Join a community of learners and discover the joy of knowledge.
                     </p>
-                    <a href="#" class="read-more"><span>Explore More</span><i class="bi bi-arrow-right"></i></a>
+                    <a href="/Home/about" class="read-more"><span>Explore More</span><i class="bi bi-arrow-right"></i></a>
                 </div>
 
             </div>
@@ -116,187 +116,197 @@
     </section><!-- /About Section -->
 
 <!-- Why Us Section -->
-<section id="why-us" class="section why-us light-background" data-builder="section">
+    <section id="why-us" class="section why-us light-background" data-builder="section">
 
-  <div class="container-fluid">
+        <div class="container-fluid">
 
-    <div class="row gy-4">
+            <div class="row gy-4">
 
-      <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+                <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
 
-        <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-          <h3><span>Why Choose </span><strong>Learnify for Your Learning Needs?</strong></h3>
-          <p>
-            At Learnify, we empower individuals to achieve their goals through innovative eLearning solutions. Whether you're a beginner or an expert, our platform caters to all learning journeys.
-          </p>
+                    <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+                        <h3><span>Why Choose </span><strong>Learnify for Your Learning Needs?</strong></h3>
+                        <p>
+                            At Learnify, we empower individuals to achieve their goals through innovative eLearning solutions. Whether you're a beginner or an expert, our platform caters to all learning journeys.
+                        </p>
+                    </div>
+
+                    <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="faq-item">
+                            <h3>
+                                <span>01</span>How does Learnify ensure effective learning?
+                                <i class="faq-toggle">▶</i>
+                            </h3>
+                            <div class="faq-content">
+                                <p>Our courses are crafted by industry experts with interactive lessons, quizzes, and projects to make learning practical and engaging.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>
+                                <span>02</span>Can I learn at my own pace?
+                                <i class="faq-toggle">▶</i>
+                            </h3>
+                            <div class="faq-content">
+                                <p>Yes! Learnify offers self-paced courses that fit into your schedule, ensuring flexibility and convenience while maintaining quality education.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>
+                                <span>03</span>What makes Learnify unique?
+                                <i class="faq-toggle">▶</i>
+                            </h3>
+                            <div class="faq-content">
+                                <p>Learnify stands out by combining cutting-edge technology with personalized learning experiences. We provide tools for progress tracking, community support, and industry-recognized certifications.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+                    <img class="img-fluid rounded" loading="lazy" src="~/img/why-us.png" alt="About Learnify">
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+    </section>
 
-          <div class="faq-item faq-active">
-            <h3><span>01</span> How does Learnify ensure effective learning?</h3>
-            <div class="faq-content">
-              <p>Our courses are crafted by industry experts with interactive lessons, quizzes, and projects to make learning practical and engaging.</p>
-            </div>
-            <i class="faq-toggle bi bi-chevron-right"></i>
-          </div><!-- End Faq item-->
+    <!-- JavaScript to handle the FAQ toggle behavior -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const faqItems = document.querySelectorAll('.faq-item');
 
-          <div class="faq-item">
-            <h3><span>02</span> Can I learn at my own pace?</h3>
-            <div class="faq-content">
-              <p>Yes! Learnify offers self-paced courses that fit into your schedule, ensuring flexibility and convenience while maintaining quality education.</p>
-            </div>
-            <i class="faq-toggle bi bi-chevron-right"></i>
-          </div><!-- End Faq item-->
+          faqItems.forEach(item => {
+            const toggleIcon = item.querySelector('.faq-toggle');
+            const faqContent = item.querySelector('.faq-content');
 
-          <div class="faq-item">
-            <h3><span>03</span> What makes Learnify unique?</h3>
-            <div class="faq-content">
-              <p>Learnify stands out by combining cutting-edge technology with personalized learning experiences. We provide tools for progress tracking, community support, and industry-recognized certifications.</p>
-            </div>
-            <i class="faq-toggle bi bi-chevron-right"></i>
-          </div><!-- End Faq item-->
-
-        </div>
-
-      </div>
-
-      <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-       <img class="img-fluid rounded" loading="lazy" src="~/img/hero-img.png" alt="About Learnify">
-      </div>
-    </div>
-
-  </div>
-
-</section><!-- /Why Us Section -->
-
+            item.querySelector('h3').addEventListener('click', () => {
+              const isActive = item.classList.contains('faq-active');
+              item.classList.toggle('faq-active', !isActive);
+              toggleIcon.textContent = isActive ? '' : ''; 
+            });
+          });
+        });
+    </script>
+    <!--Why section end-->
 
     <!-- Skills Section -->
     <section id="skills" class="skills section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-
-          <div class="col-lg-6 d-flex align-items-center">
-            <img src="~/img/skills.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
-
-            <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-
-            <div class="skills-content skills-animation">
-
-              <div class="progress">
-                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <img src="~/img/skills.png" class="img-fluid" alt="Learnify Skills">
                 </div>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Empower Your Learning Journey with Learnify</h3>
+                    <p class="fst-italic">
+                        At Learnify, we offer a diverse range of courses designed to enhance your skills and knowledge. Our platform provides flexible, self-paced learning opportunities to suit your schedule and learning style.
+                    </p>
+                    <div class="skills-content skills-animation">
+                        <!-- Skill Item -->
+                        <div class="progress">
+                            <span class="skill"><span>Interactive Courses</span> <i class="val">95%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div class="progress">
+                            <span class="skill"><span>Expert Instructors</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div class="progress">
+                            <span class="skill"><span>Flexible Learning</span> <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div class="progress">
+                            <span class="skill"><span>Community Support</span> <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div><!-- End Skills Item -->
-
             </div>
-
-          </div>
         </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
+    </section>
+    <!-- End Skills Section -->
     <!-- Services Section -->
     <section id="services" class="services section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Our Services</h2>
+            <p>Empowering your learning journey with personalized and interactive educational experiences.</p>
+        </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-activity icon"></i></div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Service Item 1 -->
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-laptop icon"></i></div>
+                        <h4><a href="#" class="stretched-link">Interactive Courses</a></h4>
+                        <p>Engage with hands-on lessons designed to provide practical knowledge and real-world applications.</p>
+                    </div>
+                </div><!-- End Service Item -->
+                <!-- Service Item 2 -->
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-person-circle icon"></i></div>
+                        <h4><a href="#" class="stretched-link">Expert Instructors</a></h4>
+                        <p>Learn from industry professionals who bring valuable insights and experience to the virtual classroom.</p>
+                    </div>
+                </div><!-- End Service Item -->
+                <!-- Service Item 3 -->
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-clock icon"></i></div>
+                        <h4><a href="#" class="stretched-link">Flexible Scheduling</a></h4>
+                        <p>Access courses at any time, allowing you to balance your studies with personal and professional commitments.</p>
+                    </div>
+                </div><!-- End Service Item -->
+                <!-- Service Item 4 -->
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-people icon"></i></div>
+                        <h4><a href="#" class="stretched-link">Community Support</a></h4>
+                        <p>Join a vibrant community of learners and educators, fostering collaboration and continuous growth.</p>
+                    </div>
+                </div><!-- End Service Item -->
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div><!-- End Service Item -->
-
         </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
+    </section><!-- End Services Section -->
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
 
-      <img src="~/img/cta-bg.jpg" alt="">
+        <img src="~/img/cta-bg.jpg" alt="">
 
-      <div class="container">
+        <div class="container">
 
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-9 text-center text-xl-start">
-            <h3>Call To Action</h3>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
+            <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-xl-9 text-center text-xl-start">
+                    <h3>Start Learning with Learnify</h3>
+                    <p>Unlock your potential with our interactive courses. Learn anytime, anywhere, and take your skills to the next level with expert-led lessons and engaging content.</p>
+                </div>
+                <div class="col-xl-3 cta-btn-container text-center">
+                    <a class="cta-btn align-middle" href=Contact.cshtml>Get Started</a>
+                </div>
+            </div>
+
         </div>
-
-      </div>
 
     </section><!-- /Call To Action Section -->
     <!-- Team Section -->
@@ -379,266 +389,222 @@
                         </div>
                     </div>
                 </div><!-- End Team Member -->
-
             </div>
-
         </div>
 
     </section><!-- /Team Section -->
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <h3>Business Plan</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Developer Plan</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
-            </div>
-          </div><!-- End Pricing Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Pricing Section -->
-
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Testimonials</h2>
+            <p>See what our learners have to say about their Learnify experience</p>
+        </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 600,
+                      "autoplay": {
+                        "delay": 5000
+                      },
+                      "slidesPerView": "auto",
+                      "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                      }
+                    }
+                </script>
+                <div class="swiper-wrapper">
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Emma Rodriguez">
+                            <h3>Emma Rodriguez</h3>
+                            <h4>Student</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bi bi-quote quote-icon-left"></i>
+                                <span>Learnify transformed my learning experience. The courses are engaging and accessible, giving me the skills needed to advance my career.</span>
+                                <i class="bi bi-quote quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End Testimonial 1 -->
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Michael Lee">
+                            <h3>Michael Lee</h3>
+                            <h4>Working Professional</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bi bi-quote quote-icon-left"></i>
+                                <span>Thanks to Learnify, I learned new digital skills that boosted my career. The hands-on approach really makes a difference.</span>
+                                <i class="bi bi-quote quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End Testimonial 2 -->
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Sarah Patel">
+                            <h3>Sarah Patel</h3>
+                            <h4>Career Changer</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bi bi-quote quote-icon-left"></i>
+                                <span>The comprehensive guidance and interactive lessons at Learnify helped me transition smoothly into a new career. Highly recommended!</span>
+                                <i class="bi bi-quote quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End Testimonial 3 -->
+                    <!-- Testimonial 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="David Kim">
+                            <h3>David Kim</h3>
+                            <h4>Educator</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bi bi-quote quote-icon-left"></i>
+                                <span>As an educator, I appreciate how Learnify inspires learners with its innovative course design and interactive content. A true asset in modern education.</span>
+                                <i class="bi bi-quote quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End Testimonial 4 -->
+                    <!-- Testimonial 5 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="Jennifer Smith">
+                            <h3>Jennifer Smith</h3>
+                            <h4>Freelancer</h4>
+                            <div class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p>
+                                <i class="bi bi-quote quote-icon-left"></i>
+                                <span>Learnify's flexible scheduling and interactive courses have allowed me to balance work and learning effectively. It's the perfect platform for busy professionals.</span>
+                                <i class="bi bi-quote quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End Testimonial 5 -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="~/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="~/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="~/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="~/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="~/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
-
-      </div>
-
     </section><!-- /Testimonials Section -->
 
     <!-- Faq 2 Section -->
     <section id="faq-2" class="faq-2 section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Frequently Asked Questions</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Frequently Asked Questions</h2>
+            <p>Your questions answered. Learnify is here to support your e-learning journey every step of the way.</p>
+        </div><!-- End Section Title -->
 
-      <div class="container">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="faq-container">
 
-        <div class="row justify-content-center">
+                        <!-- FAQ Item 1 -->
+                        <div class="faq-item faq-active" data-aos="fade-right" data-aos-delay="200">
+                            <i class="faq-icon bi bi-question-circle"></i>
+                            <h3>How do I enroll in a course on Learnify?</h3>
+                            <div class="faq-content">
+                                <p>
+                                    Simply browse our course catalog, choose the course that matches your interests, and click "Enroll Now" to begin your learning journey.
+                                </p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right">▼</i>
+                        </div><!-- End Faq item-->
+                        <!-- FAQ Item 2 -->
+                        <div class="faq-item" data-aos="fade-left" data-aos-delay="300">
+                            <i class="faq-icon bi bi-question-circle"></i>
+                            <h3>Will I receive a certificate upon course completion?</h3>
+                            <div class="faq-content">
+                                <p>
+                                    Yes, after successfully completing our courses, you'll receive a digital certificate to showcase your achievements and boost your career profile.
+                                </p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right">▶</i>
+                        </div><!-- End Faq item-->
+                        <!-- FAQ Item 3 -->
+                        <div class="faq-item" data-aos="fade-right" data-aos-delay="400">
+                            <i class="faq-icon bi bi-question-circle"></i>
+                            <h3>Are there any free courses available on Learnify?</h3>
+                            <div class="faq-content">
+                                <p>
+                                    Absolutely! We offer a range of free courses designed to help you get started and explore new subjects without any initial investment.
+                                </p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right">▶</i>
+                        </div><!-- End Faq item-->
+                        <!-- FAQ Item 4 -->
+                        <div class="faq-item" data-aos="fade-left" data-aos-delay="500">
+                            <i class="faq-icon bi bi-question-circle"></i>
+                            <h3>What payment methods do you accept for premium subscriptions?</h3>
+                            <div class="faq-content">
+                                <p>
+                                    We accept all major credit cards, PayPal, and other secure payment options to ensure a smooth and safe transaction process.
+                                </p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right">▶</i>
+                        </div><!-- End Faq item-->
+                        <!-- FAQ Item 5 -->
+                        <div class="faq-item" data-aos="fade-right" data-aos-delay="600">
+                            <i class="faq-icon bi bi-question-circle"></i>
+                            <h3>How can I get help if I encounter any issues?</h3>
+                            <div class="faq-content">
+                                <p>
+                                    Our support team is available 24/7 via live chat, email, or our help center. We're dedicated to ensuring you have the best learning experience.
+                                </p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right">▶</i>
+                        </div><!-- End Faq item-->
 
-          <div class="col-lg-10">
-
-            <div class="faq-container">
-
-              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                    </div>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h3>
-                <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
             </div>
-
-          </div>
-
         </div>
 
-      </div>
-
     </section><!-- /Faq 2 Section -->
-
-
+    <!-- FAQ Toggle Script -->
   </div>
 <footer id="footer" class="footer">
 
@@ -646,8 +612,8 @@
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-6">
-                    <h4>Join Our Newsletter</h4>
-                    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                    <h4>Join Our Family</h4>
+                    <p>Subscribe to our newsletter and receive the latest news about our Cources and services!</p>
                     <form action="forms/newsletter.php" method="post" class="php-email-form">
                         <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
                         <div class="loading">Loading</div>

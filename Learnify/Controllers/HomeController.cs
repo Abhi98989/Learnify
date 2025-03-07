@@ -54,28 +54,17 @@ namespace Learnify.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-
-
-
-
-
         //------------------Data handling logic paxi xuutai xuttai controller rw aarko DataAcessLayer banayera halne------------------------------
 
         [HttpPost]
         public IActionResult register(register r1)
         {
 
-
             if (r1.password != r1.confirmpassword)
             {
                 ViewBag.Message = "Password and Confirm Password should be same";
                 return View();
             }
-
-
-
-
-
 
 
             try
