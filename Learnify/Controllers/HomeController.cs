@@ -16,7 +16,6 @@ namespace Learnify.Controllers
         {
             Dbcs = configuration.GetConnectionString("DefaultConnection");
         }
-
         public IActionResult Index()
         {
             return View();
@@ -53,7 +52,6 @@ namespace Learnify.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
         //------------------Data handling logic paxi xuutai xuttai controller rw aarko DataAcessLayer banayera halne------------------------------
 
         [HttpPost]
@@ -65,8 +63,6 @@ namespace Learnify.Controllers
                 ViewBag.Message = "Password and Confirm Password should be same";
                 return View();
             }
-
-
             try
             {
                 using SqlConnection con = new SqlConnection(Dbcs);
