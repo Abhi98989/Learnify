@@ -1,0 +1,145 @@
+﻿@{
+    ViewData["Title"] = "Category";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Categories</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Categories</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body p-0">
+                        <table class="table table-striped" id="categoryTable">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Category</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Add Category</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="categoryName">Category Name</label>
+                            <input type="text" class="form-control" id="categoryName" placeholder="Catgeory Name">
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary" id="addCategory" data-id="0">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    $(document).ready(function (){
+        initialFunctionCall();
+    });
+    async function initialFunctionCall(){
+       await getCategory();
+    }
+    function reset(){
+        $("#categoryName").val("");
+        $("#addCategory").attr("data-id", 0);
+        $("#addCategory").text("Add");
+    }
+    async function getCategory(){
+        let res = await AjaxCall("/Admin/GetCategory",{});
+        if(res != "Null"){
+            const jRes = JSON.parse(res);
+            if(jRes.length > 0){
+                let dom = "";
+                for(let i= 0; i < jRes.length; i++){
+                    dom += `<tr data-catid="${jRes[i]["CategoryId"]}">
+                                <td>${(i+1)}</td>
+                                <td class="catname">${jRes[i]["CategoryName"]}</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm editCategory"><i class="fas fa-edit"></i></button>
+                                    <button type="button" class="btn btn-danger btn-sm trashCategory"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>`;
+                }
+                $("#categoryTable tbody").empty().append(dom);
+            }
+        }
+    }
+    $("#addCategory").on("click", async function(){
+        if($("#categoryName").val().trim() == ""){
+            SweetAlert("info","Please Enter Category Name First!");
+        }
+        else {
+            await insertUpdateCategory($(this).attr("data-id"));
+        }
+    });
+    async function insertUpdateCategory(id){
+        let param = {
+            CategoryId: id,
+            CategoryName: $("#categoryName").val().trim(),
+        }
+        let res = await AjaxCall("/Admin/InsertUpdateCategory", param);
+        if (res == "" || res == "0"){
+            SweetAlert("error","Error Occured While Saving Data!");
+        }
+        else{
+            SweetAlert("success","Data Saved Successfully!");
+            setTimeout(getCategory, 1000);
+            reset();
+        }
+    }
+    $(document).on("click", ".trashCategory", async function(){
+        let id = $(this).parents("tr").attr("data-catid");
+        if(id == 0){
+            SweetAlert("error","Something Went Wrong!");
+        }
+        else{
+            let param = {
+                CategoryId: id,
+            }
+            let res = await AjaxCall("/Admin/TrashCategory", param);
+            if (res == "" || res == "0"){
+                SweetAlert("error","Error Occured While Deleting Data!");
+            }
+            else{
+                SweetAlert("success","Data Deleting Successfully!");
+                setTimeout(getCategory, 1000);
+                reset();
+            }
+        }
+    });
+
+    $(document).on("click", ".editCategory", function(){
+        $("#addCategory").attr("data-id", $(this).parents("tr").attr("data-catid"));
+        $("#addCategory").text("Update");
+        $("#categoryName").val($(this).parents("tr").find(".catname").text());
+    });
+
+
+</script>

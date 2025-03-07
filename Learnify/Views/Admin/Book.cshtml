@@ -1,0 +1,182 @@
+﻿
+@{
+    ViewData["Title"] = "Book";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Books</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Books</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body p-0">
+                        <table class="table table-striped" id="bookTable">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Book</th>
+                                    <th>Category</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Add Book</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="bookName">Book Name</label>
+                            <input type="text" class="form-control" id="bookName" placeholder="Book Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="bookCategory">Book Category</label>
+                            <select class="form-control" id="bookCategory">
+
+                            </select>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary" id="addBook" data-id="0">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    $(document).ready(function (){
+        initialFunctionCall();
+    });
+    async function initialFunctionCall(){
+       await getCategory();
+       await getBooks();
+    }
+    function reset(){
+        $("#bookName").val("");
+        $("#bookCategory").val("-1");
+        $("#addBook").attr("data-id", 0);
+        $("#addBook").text("Add");
+    }
+    async function getCategory(){
+        let dom = "<option value="+ "-1" +">" + "SELECT CATEGORY" + "</option>";
+        let res = await AjaxCall("/Admin/GetCategory",{});
+        if(res != "Null"){
+            const jRes = JSON.parse(res);
+            if(jRes.length > 0){
+                for(let i= 0; i < jRes.length; i++){
+                    dom+=`<option value="${jRes[i]["CategoryId"]}">${jRes[i]["CategoryName"]}</option>`;
+                }
+            }
+        }
+        $("#bookCategory").empty().append(dom);
+    }
+    
+    async function getBooks(){
+        let res = await AjaxCall("/Admin/GetBooks",{});
+        if(res != "Null"){
+            const jRes = JSON.parse(res);
+            if(jRes.length > 0){
+                let dom = "";
+                debugger
+                for(let i= 0; i < jRes.length; i++){
+                    dom+=``;
+                    dom += `<tr data-bookid="${jRes[i]["bookId"]}" data-catid="${jRes[i]["categoryId"]}">
+                                <td>${(i+1)}</td>
+                                <td class="bookname">${jRes[i]["bookName"]}</td>
+                                <td class="catname">${jRes[i]["categoryName"]}</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-sm editCategory"><i class="fas fa-edit"></i></button>
+                                    <button type="button" class="btn btn-danger btn-sm trashCategory"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>`;
+                }
+                $("#bookTable tbody").empty().append(dom);
+            }
+        }
+    }
+
+    $("#addBook").on("click", async function(){
+        if($("#bookName").val().trim() == ""){
+            SweetAlert("info","Please Enter The Book Name!");
+        }
+        else if($("#bookCategory").val() == "-1"){
+            SweetAlert("info","Please Select a Category!");
+        }
+        else {
+            let param = {
+                BookId : $(this).attr("data-id"),
+                BookName : $("#bookName").val().trim(),
+                Category : $("#bookCategory").val(),
+            }
+            await insertUpdateBook(param);
+        }
+    });
+
+    async function insertUpdateBook(param){
+        let res = await AjaxCall("/Admin/InsertUpdateBook", param);
+        if (res == "" || res == "0"){
+            SweetAlert("error","Error Occured While Saving Data!");
+        }
+        else{
+            SweetAlert("success","Data Saved Successfully!");
+            setTimeout(getBooks, 1000);
+            reset();
+        }
+    }
+
+    $(document).on("click", ".trashCategory", async function(){
+        let id = $(this).parents("tr").attr("data-bookid");
+        if(id == 0){
+            SweetAlert("error","Something Went Wrong!");
+        }
+        else{
+            let param = {
+                BookId: id,
+            }
+            let res = await AjaxCall("/Admin/TrashBook", param);
+            if (res == "" || res == "0"){
+                SweetAlert("error","Error Occured While Deleting Data!");
+            }
+            else{
+                SweetAlert("success","Data Deleting Successfully!");
+                setTimeout(getBooks, 1000);
+                reset();
+            }
+        }
+    });
+
+
+    $(document).on("click", ".editCategory", function(){
+        $("#addBook").attr("data-id", $(this).parents("tr").attr("data-bookid"));
+        $("#bookCategory").val($(this).parents("tr").attr("data-catid"))
+        $("#addBook").text("Update");
+        $("#bookName").val($(this).parents("tr").find(".bookname").text());
+    });
+
+
+</script>
