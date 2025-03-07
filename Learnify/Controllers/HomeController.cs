@@ -54,28 +54,17 @@ namespace Learnify.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-
-
-
-
-
         //------------------Data handling logic paxi xuutai xuttai controller rw aarko DataAcessLayer banayera halne------------------------------
 
         [HttpPost]
         public IActionResult register(register r1)
         {
 
-
             if (r1.password != r1.confirmpassword)
             {
                 ViewBag.Message = "Password and Confirm Password should be same";
                 return View();
             }
-
-
-
-
-
 
 
             try
@@ -122,7 +111,7 @@ namespace Learnify.Controllers
             {
                 using SqlConnection con = new SqlConnection(Dbcs);
                 {
-                    using SqlCommand cmd = new SqlCommand("User_loginDetailsDetails", con);
+                    using SqlCommand cmd = new SqlCommand("User_Login", con);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@email", lg.email);
                     cmd.Parameters.AddWithValue("@password", lg.password);

@@ -6,6 +6,21 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+/* for question only*/
+//<script>
+//  // Select all faq items
+//    const faqItems = document.querySelectorAll('.faq-item');
+
+//  faqItems.forEach(item => {
+//        // Attach a click event listener on the header (question and icon)
+//        item.querySelector('h3').addEventListener('click', () => {
+//            // Toggle the active class on the clicked FAQ item
+//            item.classList.toggle('faq-active');
+//        });
+//  });
+//</script>
+
 (function() {
   "use strict";
 

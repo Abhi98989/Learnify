@@ -203,6 +203,33 @@ h6 {
   }
 }
 
+
+/*for question only*/
+/*.faq-content {
+    display: none;*/ /* Hide answer by default */
+    /*padding: 10px 0;
+}
+
+.faq-item.faq-active .faq-content {
+    display: block;*/ /* Show answer when active */
+/*}
+
+.faq-item h3 {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-toggle {
+    transition: transform 0.3s;
+}
+
+.faq-item.faq-active .faq-toggle {
+    transform: rotate(90deg);*/ /* Rotate icon when active */
+/*}*/
+
+
 /* Index Page Header
 ------------------------------*/
 .index-page .header {

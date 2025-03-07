@@ -1,269 +1,162 @@
 ﻿<style>
-	body {
-		margin-top: 20px;
-		background: #DCDCDC;
-	}
+    .pricing_design .single-pricing {
+        background: #f8f9fa;
+        border: 2px solid #e9ecef;
+    }
 
-	.pricing-content {
-		position: relative;
-	}
+    .premium-plan {
+        background: #554c86 !important;
+        border-color: #554c86 !important;
+        transform: scale(1.05);
+    }
 
-	.pricing_design {
-		position: relative;
-		margin: 0px 15px;
-	}
+        .premium-plan * {
+            color: white !important;
+        }
 
-		.pricing_design .single-pricing {
-			background: #554c86;
-			padding: 60px 40px;
-			border-radius: 30px;
-			box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
-			position: relative;
-			z-index: 1;
-		}
+    .premium-badge {
+        position: absolute;
+        top: -15px;
+        right: 20px;
+        background: #ffd700;
+        color: #000;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 12px;
+    }
 
-			.pricing_design .single-pricing:before {
-				content: "";
-				background-color: #fff;
-				width: 100%;
-				height: 100%;
-				border-radius: 18px 18px 190px 18px;
-				border: 1px solid #eee;
-				position: absolute;
-				bottom: 0;
-				right: 0;
-				z-index: -1;
-			}
-
-	.price-head {
-	}
-
-		.price-head h2 {
-			margin-bottom: 20px;
-			font-size: 26px;
-			font-weight: 600;
-		}
-
-		.price-head h1 {
-			font-weight: 600;
-			margin-top: 30px;
-			margin-bottom: 5px;
-		}
-
-		.price-head span {
-		}
-
-	.single-pricing ul {
-		list-style: none;
-		margin-top: 30px;
-	}
-
-		.single-pricing ul li {
-			line-height: 36px;
-		}
-
-			.single-pricing ul li i {
-				background: #554c86;
-				color: #fff;
-				width: 20px;
-				height: 20px;
-				border-radius: 30px;
-				font-size: 11px;
-				text-align: center;
-				line-height: 20px;
-				margin-right: 6px;
-			}
-
-	.pricing-price {
-	}
-
-	.price_btn {
-		background: #554c86;
-		padding: 10px 30px;
-		color: #fff;
-		display: inline-block;
-		margin-top: 20px;
-		border-radius: 2px;
-		-webkit-transition: 0.3s;
-		transition: 0.3s;
-	}
-
-		.price_btn:hover {
-			background: #0aa1d6;
-		}
-
-	a {
-		text-decoration: none;
-	}
-
-	.section-title {
-		margin-bottom: 60px;
-	}
-
-	.text-center {
-		text-align: center !important;
-	}
-
-	.section-title h2 {
-		font-size: 45px;
-		font-weight: 600;
-		margin-top: 0;
-		position: relative;
-		text-transform: capitalize;
-	}
+    .price_btn.premium-btn {
+        background: #ffd700;
+        color: #000 !important;
+        font-weight: bold;
+    }
 </style>
+
 <section id="pricing" class="pricing-content section-padding">
-	<div class="container">
-		<div class="section-title text-center">
-			<h2>Pricing Plans</h2>
-			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-		</div>
-		<div class="row text-center">
-			<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
-				<div class="pricing_design">
-					<div class="single-pricing">
-						<div class="price-head">
-							<h2>Starter</h2>
-							<h1>$0</h1>
-							<span>/Monthly</span>
-						</div>
-						<ul>
-							<li><b>15</b> website</li>
-							<li><b>50GB</b> Disk Space</li>
-							<li><b>50</b> Email</li>
-							<li><b>50GB</b> Bandwidth</li>
-							<li><b>10</b> Subdomains</li>
-							<li><b>Unlimited</b> Support</li>
-						</ul>
-						<div class="pricing-price">
-						</div>
-						<a href="#" class="price_btn">Order Now</a>
-					</div>
-				</div>
-			</div><!--- END COL -->
-			<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
-				<div class="pricing_design">
-					<div class="single-pricing">
-						<div class="price-head">
-							<h2>Personal</h2>
-							<h1 class="price">$29</h1>
-						<span>/Monthly</span>
-						</div>
-						<ul>
-							<li><b>15</b> website</li>
-							<li><b>50GB</b> Disk Space</li>
-							<li><b>50</b> Email</li>
-							<li><b>50GB</b> Bandwidth</li>
-							<li><b>10</b> Subdomains</li>
-							<li><b>Unlimited</b> Support</li>
-						</ul>
-						<div class="pricing-price">
-						</div>
-						<a href="#" class="price_btn">Order Now</a>
-					</div>
-				</div>
-			</div><!--- END COL -->
-			<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
-				<div class="pricing_design">
-					<div class="single-pricing">
-						<div class="price-head">
-							<h2>Ultimate</h2>
-							<h1 class="price">$49</h1>
-							<span>/Monthly</span>
-						</div>
-						<ul>
-							<li><b>15</b> website</li>
-							<li><b>50GB</b> Disk Space</li>
-							<li><b>50</b> Email</li>
-							<li><b>50GB</b> Bandwidth</li>
-							<li><b>10</b> Subdomains</li>
-							<li><b>Unlimited</b> Support</li>
-						</ul>
-						<div class="pricing-price">
-						</div>
-						<a href="#" class="price_btn">Order Now</a>
-					</div>
-				</div>
-			</div><!--- END COL -->
-		</div><!--- END ROW -->
-	</div><!--- END CONTAINER -->
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Unlock Your Learning Potential</h2>
+            <p>Start for free, upgrade to premium for full access. Less than a coffee per month!</p>
+        </div>
+        <div class="row text-center">
+            <!-- Free Tier -->
+            <div class="col-lg-6 col-md-6 col-xs-12 wow fadeInUp">
+                <div class="pricing_design">
+                    <div class="single-pricing">
+                        <div class="price-head">
+                            <h2>Starter</h2>
+                            <h1>$0</h1>
+                            <span>Forever Free</span>
+                        </div>
+                        <ul>
+                            <li><i class="bi bi-check2"></i> Access to 10+ basic courses</li>
+                            <li><i class="bi bi-check2"></i> Weekly learning resources</li>
+                            <li><i class="bi bi-check2"></i> Community support</li>
+                            <li><i class="bi bi-x"></i> <del>Certificates of completion</del></li>
+                            <li><i class="bi bi-x"></i> <del>Premium courses</del></li>
+                            <li><i class="bi bi-x"></i> <del>Career services</del></li>
+                        </ul>
+                        <a href="#" class="price_btn">Start Learning Free</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premium Tier -->
+            <div class="col-lg-6 col-md-6 col-xs-12 wow fadeInUp">
+                <div class="pricing_design">
+                    <div class="single-pricing premium-plan">
+                        <span class="premium-badge">Most Popular</span>
+                        <div class="price-head">
+                            <h2>Premium</h2>
+                            <h1>$9</h1>
+                            <span>/month • Cancel anytime</span>
+                        </div>
+                        <ul>
+                            <li><i class="bi bi-check2"></i> Full access to 500+ courses</li>
+                            <li><i class="bi bi-check2"></i> Downloadable resources</li>
+                            <li><i class="bi bi-check2"></i> Professional certificates</li>
+                            <li><i class="bi bi-check2"></i> 1:1 Expert support</li>
+                            <li><i class="bi bi-check2"></i> Career coaching</li>
+                            <li><i class="bi bi-check2"></i> Ad-free experience</li>
+                        </ul>
+                        <a href="#" class="price_btn premium-btn">Get Premium Access</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 <footer id="footer" class="footer">
+    <div class="footer-newsletter">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6">
+                    <h4>Get Learning Updates</h4>
+                    <p>Subscribe to receive course recommendations, study tips, and special offers!</p>
+                    <form class="php-email-form">
+                        <div class="newsletter-form">
+                            <input type="email" name="email" placeholder="Enter your email">
+                            <input type="submit" value="Subscribe">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<div class="footer-newsletter">
-		<div class="container">
-			<div class="row justify-content-center text-center">
-				<div class="col-lg-6">
-					<h4>Join Our Newsletter</h4>
-					<p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-					<form action="forms/newsletter.php" method="post" class="php-email-form">
-						<div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-						<div class="loading">Loading</div>
-						<div class="error-message"></div>
-						<div class="sent-message">Your subscription request has been sent. Thank you!</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container footer-top">
+        <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+                <a href="index.html" class="d-flex align-items-center">
+                    <span class="sitename">Learnify</span>
+                </a>
+                <div class="footer-contact pt-3">
+                    <p>24/7 Learning Support</p>
+                    <p>Questions? We're here to help!</p>
+                    <p class="mt-3"><strong>Email Support:</strong> <span>help@learnify.com</span></p>
+                    <p><strong>Community Forum:</strong> <span>forum.learnify.com</span></p>
+                </div>
+            </div>
 
-	<div class="container footer-top">
-		<div class="row gy-4">
-			<div class="col-lg-4 col-md-6 footer-about">
-				<a href="index.html" class="d-flex align-items-center">
-					<span class="sitename">Learnify</span>
-				</a>
-				<div class="footer-contact pt-3">
-					<p>Gandaki</p>
-					<p>Pokhara, Zero 5</p>
-					<p class="mt-3"><strong>Phone:</strong> <span>+977 -9815238838</span></p>
-					<p><strong>Email:</strong> <span>learnify@gmail.com</span></p>
-				</div>
-			</div>
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>Learning Paths</h4>
+                <ul>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Beginner Courses</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Advanced Courses</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Certifications</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Skill Tracks</a></li>
+                </ul>
+            </div>
 
-			<div class="col-lg-2 col-md-3 footer-links">
-				<h4>Useful Links</h4>
-				<ul>
-					<li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-					<li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-					<li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-					<li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-				</ul>
-			</div>
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Blog</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Career Services</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Mobile App</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Dashboard</a></li>
+                </ul>
+            </div>
 
-			<div class="col-lg-2 col-md-3 footer-links">
-				<h4>Our Services</h4>
-				<ul>
-					<li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-					<li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-					<li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-					<li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-				</ul>
-			</div>
+            <div class="col-lg-4 col-md-12">
+                <h4>Join Our Community</h4>
+                <p>Connect with learners worldwide and enhance your learning experience</p>
+                <div class="social-links d-flex">
+                    <a href="#"><i class="bi bi-discord"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-			<div class="col-lg-4 col-md-12">
-				<h4>Follow Us</h4>
-				<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-				<div class="social-links d-flex">
-					<a href=""><i class="bi bi-twitter-x"></i></a>
-					<a href=""><i class="bi bi-facebook"></i></a>
-					<a href=""><i class="bi bi-instagram"></i></a>
-					<a href=""><i class="bi bi-linkedin"></i></a>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<div class="container copyright text-center mt-4">
-		<p>© <span>Copyright</span> <strong class="px-1 sitename">Learnify</strong> <span>All Rights Reserved</span></p>
-		<div class="credits">
-			<!-- All the links in the footer should remain intact. -->
-			<!-- You can delete the links only if you've purchased the pro version. -->
-			<!-- Licensing information: https://bootstrapmade.com/license/ -->
-			<!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-			Designed by <a href="\">AK E-Learning</a>
-		</div>
-	</div>
-
+    <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Learnify</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+            Empowering learners since 2024
+        </div>
+    </div>
 </footer>
