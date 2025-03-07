@@ -8,9 +8,8 @@ namespace Learnify.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        private readonly String Dbcs;
+        private readonly string Dbcs;
 
         public HomeController(IConfiguration configuration)
         {
@@ -128,9 +127,6 @@ namespace Learnify.Controllers
             {
                 ViewBag.Message = ex.Message;
             }
-
-
-
             return View();
         }
     }
