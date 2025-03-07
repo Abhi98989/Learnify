@@ -4,7 +4,7 @@ namespace Learnify.Models
 {
     public class loginDetails
     {
-        public String email{ get; set; }
-        public String password { get; set; }
+        public string? email{ get; set; }
+        public string? password { get; set; }
     }
 }
