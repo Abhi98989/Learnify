@@ -34,8 +34,8 @@ namespace Learnify.Controllers
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 		}
 		public IActionResult InsertUpdateCategory([FromBody] Category cat)
 		{
@@ -51,8 +51,8 @@ namespace Learnify.Controllers
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 		}
 		public IActionResult TrashCategory([FromBody] Category cat)
 		{
@@ -67,8 +67,8 @@ namespace Learnify.Controllers
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 		}
 
 		public IActionResult GetBooks()
@@ -81,8 +81,8 @@ namespace Learnify.Controllers
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 		}
 		public IActionResult InsertUpdateBook([FromBody] Books book)
 		{
@@ -99,8 +99,8 @@ namespace Learnify.Controllers
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 		}
 		public IActionResult TrashBook([FromBody] Books book)
 		{
@@ -115,8 +115,8 @@ namespace Learnify.Controllers
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 		}
 	}
 }

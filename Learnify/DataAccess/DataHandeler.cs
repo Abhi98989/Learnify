@@ -6,8 +6,7 @@ namespace Learnify.Classes
 {
 	public class DataHandeler
 	{
-
-		public string _connectionString = "Data Source=.;Initial Catalog=Learnify;Integrated Security=True;";//Startup.connectiontring;
+		public string _connectionString = "Data Source=ABHISHEK\\SQLEXPRESS;Initial Catalog=Learnify;Integrated Security=True;";//Startup.connectiontring;
 
 		//---------------for Insert operation -----------------
 		public int Insert(string sql, SqlParameter[] param, CommandType cmdType)
@@ -33,15 +32,13 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				con.Close();
 			}
 		}
-
-
 		//----------------------InsertUpdate -----------------------------------
 		public int InsertUpdate(string sql, SqlParameter[] param, CommandType cmdType)
 		{
@@ -66,17 +63,13 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				con.Close();
 			}
 		}
-
-
-
-
 		//---------------------------Query Executer---------------------------
 		public int ExecuteNonQuery(string sql, SqlParameter[] param, CommandType cmdType)
 		{
@@ -101,8 +94,8 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				con.Close();
@@ -133,8 +126,8 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				con.Close();
@@ -165,8 +158,8 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				con.Close();
@@ -199,8 +192,8 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				conn.Close();
@@ -235,20 +228,13 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				conn.Close();
 			}
 		}
-
-
-
-
-
-
-
 		//-----------------------Read data----------------------------
 		public DataTable ReadData1(string sql, SqlParameter[] parm, CommandType cmdType)
 		{
@@ -274,8 +260,8 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				conn.Close();
@@ -333,8 +319,8 @@ namespace Learnify.Classes
 
 				catch (Exception ex)
 				{
-					throw ex;
-				}
+                    throw;
+                }
 				finally
 				{
 					con.Close();
@@ -396,8 +382,8 @@ namespace Learnify.Classes
 				}
 				catch (Exception ex)
 				{
-					throw ex;
-				}
+                    throw;
+                }
 				finally
 				{
 					con.Close();
@@ -426,8 +412,8 @@ namespace Learnify.Classes
 			}
 			catch (Exception ex)
 			{
-				throw ex;
-			}
+                throw;
+            }
 			finally
 			{
 				conn.Close();
