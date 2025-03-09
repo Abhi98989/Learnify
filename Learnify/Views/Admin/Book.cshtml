@@ -1,8 +1,56 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Book";
     Layout = "~/Views/Shared/_Admin.cshtml";
 }
+
+<style>
+    .file-icon-container {
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .file-extension {
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .book-thumbnail {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 2px;
+    }
+
+    .sticky-top {
+        z-index: 1; /* Ensure header stays above scrolling content */
+    }
+
+    .table-responsive::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    .table-responsive::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 4px;
+    }
+
+    .table-responsive::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+</style>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- include summernote css/js -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
+
+
 
 <section class="content-header">
     <div class="container-fluid">
@@ -19,29 +67,11 @@
         </div>
     </div><!-- /.container-fluid -->
 </section>
+
 <section class="content">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <div class="card">
-                    <div class="card-body p-0">
-                        <table class="table table-striped" id="bookTable">
-                            <thead>
-                                <tr>
-                                    <th style="width: 10px">#</th>
-                                    <th>Book</th>
-                                    <th>Category</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!-- /.card-body -->
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-4 col-sm-12">
                 <div class="card card-primary">
                     <div class="card-header">
                         <h3 class="card-title">Add Book</h3>
@@ -54,14 +84,50 @@
                         <div class="form-group">
                             <label for="bookCategory">Book Category</label>
                             <select class="form-control" id="bookCategory">
-
                             </select>
                         </div>
+                        <div class="form-group">
+                            <label for="bookAuthor">Author Name</label>
+                            <input type="text" class="form-control" id="bookAuthor" placeholder="Author Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="bookPublished">Published On</label>
+                            <input type="text" class="form-control" id="bookPublished" placeholder="Published On">
+                        </div>
+                        <div class="form-group">
+                            <label for="bookDescription">Description</label>
+                            <div id="bookDescription">
+                            </div>
+                        </div>
+                        <input type="file" name="file" id="bookFile" />
+                        <span id="uploadedInfo" style="color:red;display:none">Uploaded!!!</span>
                     </div>
-                    <!-- /.card-body -->
-
                     <div class="card-footer">
                         <button type="submit" class="btn btn-primary" id="addBook" data-id="0">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <div class="card">
+                    <div class="card-body p-0">
+                        <div class="table-responsive" style="max-height: 700px; overflow: auto;">
+                            <table class="table table-striped mb-0" id="bookTable">
+                                <thead class="sticky-top bg-white">
+                                    <tr>
+                                        <th style="width: 5%; min-width: 50px">#</th>
+                                        <th style="min-width: 150px">Book</th>
+                                        <th style="min-width: 120px">Category</th>
+                                        <th style="min-width: 150px">Author</th>
+                                        <th style="min-width: 120px">Published Date</th>
+                                        <th style="min-width: 200px">Description</th>
+                                        <th style="min-width: 100px">File</th>
+                                        <th style="min-width: 100px">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,6 +137,11 @@
 <script type="text/javascript">
     $(document).ready(function (){
         initialFunctionCall();
+        $('#bookDescription').summernote({
+            placeholder: 'Place Your Descriptions Here',
+            tabsize: 2,
+            height: 100
+        });
     });
     async function initialFunctionCall(){
        await getCategory();
@@ -81,6 +152,12 @@
         $("#bookCategory").val("-1");
         $("#addBook").attr("data-id", 0);
         $("#addBook").text("Add");
+        $("#bookAuthor").val("");
+        $("#bookPublished").val("");
+        $("#bookDescription").summernote('code', "");
+        $("#bookFile").val("");
+        $("#bookFile").attr('data-file', "");
+        $("#uploadedInfo").hide();
     }
     async function getCategory(){
         let dom = "<option value="+ "-1" +">" + "SELECT CATEGORY" + "</option>";
@@ -95,25 +172,69 @@
         }
         $("#bookCategory").empty().append(dom);
     }
-    
+
     async function getBooks(){
         let res = await AjaxCall("/Admin/GetBooks",{});
         if(res != "Null"){
             const jRes = JSON.parse(res);
             if(jRes.length > 0){
                 let dom = "";
-                debugger
                 for(let i= 0; i < jRes.length; i++){
-                    dom+=``;
-                    dom += `<tr data-bookid="${jRes[i]["bookId"]}" data-catid="${jRes[i]["categoryId"]}">
-                                <td>${(i+1)}</td>
-                                <td class="bookname">${jRes[i]["bookName"]}</td>
-                                <td class="catname">${jRes[i]["categoryName"]}</td>
-                                <td>
-                                    <button type="button" class="btn btn-success btn-sm editCategory"><i class="fas fa-edit"></i></button>
-                                    <button type="button" class="btn btn-danger btn-sm trashCategory"><i class="fas fa-trash"></i></button>
-                                </td>
-                            </tr>`;
+                    // $('#summernote').summernote('code', markupStr);
+                        dom += `<tr data-bookid="${jRes[i].bookId}" data-catid="${jRes[i].categoryId}">
+                        <td>${i+1}</td>
+                        <td class="bookname">${jRes[i].bookName}</td>
+                        <td class="catname">${jRes[i].categoryName}</td>
+                        <td class="authorName">${jRes[i].authorName}</td>
+                        <td class="publishedDate">${jRes[i].publishedDate}</td>
+                        <td class="description">${jRes[i].bookDescription}</td>
+                        <td class="bookFile clickable-cell"
+                            data-file="${jRes[i].BookFileName}"
+                            data-url="${jRes[i].bookrefFile}">
+                            ${(function() {
+                                const filename = jRes[i].BookFileName;
+                                if (!filename) return '<em>No file</em>';
+                                const ext = filename.split('.').pop().toLowerCase();
+                                const imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
+
+                                if (imageExtensions.includes(ext)) {
+                                    return `<img src="${jRes[i].bookrefFile}"
+                                               style="height:100px;width:100px;object-fit:cover;cursor:pointer"
+                                               alt="Book cover"
+                                               class="book-thumbnail">`;
+                                }
+
+                                let iconClass = 'fas fa-file';
+                                switch(ext) {
+                                    case 'pdf': iconClass = 'fas fa-file-pdf text-danger'; break;
+                                    case 'doc':
+                                    case 'docx': iconClass = 'fas fa-file-word text-primary'; break;
+                                    case 'xls':
+                                    case 'xlsx': iconClass = 'fas fa-file-excel text-success'; break;
+                                    case 'txt': iconClass = 'fas fa-file-alt text-secondary'; break;
+                                    case 'zip':
+                                    case 'rar': iconClass = 'fas fa-file-archive text-muted'; break;
+                                    case 'ppt':
+                                    case 'pptx': iconClass = 'fas fa-file-powerpoint text-warning'; break;
+                                }
+
+                                return `
+                                    <div class="file-icon-container" style="cursor:pointer">
+                                        <i class="${iconClass} fa-3x"></i>
+                                        <div class="file-extension">${ext.toUpperCase()}</div>
+                                    </div>
+                                `;
+                            })()}
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-sm editCategory">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button type="button" class="btn btn-danger btn-sm trashCategory">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>`;
                 }
                 $("#bookTable tbody").empty().append(dom);
             }
@@ -128,10 +249,15 @@
             SweetAlert("info","Please Select a Category!");
         }
         else {
+            var markupStr = $('#bookDescription').summernote('code');
             let param = {
                 BookId : $(this).attr("data-id"),
                 BookName : $("#bookName").val().trim(),
                 Category : $("#bookCategory").val(),
+                AuthorName : $("#bookAuthor").val().trim(),
+                PublishedOn : $("#bookPublished").val().trim(),
+                Description: markupStr,
+                FileName: $("#bookFile").attr("data-file"),
             }
             await insertUpdateBook(param);
         }
@@ -151,12 +277,14 @@
 
     $(document).on("click", ".trashCategory", async function(){
         let id = $(this).parents("tr").attr("data-bookid");
+        let filename = $(this).parents("tr").find(".bookFile").attr("data-file");
         if(id == 0){
             SweetAlert("error","Something Went Wrong!");
         }
         else{
             let param = {
                 BookId: id,
+                FileName: filename
             }
             let res = await AjaxCall("/Admin/TrashBook", param);
             if (res == "" || res == "0"){
@@ -176,7 +304,59 @@
         $("#bookCategory").val($(this).parents("tr").attr("data-catid"))
         $("#addBook").text("Update");
         $("#bookName").val($(this).parents("tr").find(".bookname").text());
+        $("#bookAuthor").val($(this).parents("tr").find(".authorName").text());
+        $("#bookPublished").val($(this).parents("tr").find(".publishedDate").text());
+        $("#bookDescription").summernote('code', $(this).parents("tr").find(".description").html());
+        $("#bookFile").attr('data-file',$(this).parents("tr").find(".bookFile").attr('data-file'));
+        $("#uploadedInfo").show();
     });
 
+    $("#bookFile").on('input',function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        let formData = new FormData();
+        let fileInput = $("#bookFile")[0].files[0];
+
+        if (!fileInput) {
+            SweetAlert("info", "Please select a file to upload!");
+            return;
+        }
+
+        formData.append("file", fileInput);
+
+        $.ajax({
+            url: "/Admin/UploadFile",
+            type: "POST",
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                if (response) {
+                    // Store file name in hidden input or any element
+                    $("#uploadedFileName").val(response);
+
+                    // Store file name in a data attribute of the input field
+                    $("#bookFile").attr("data-file", response);
+                    $("#uploadedInfo").show();
+
+                    SweetAlert("success", "File uploaded successfully!");
+                } else {
+                    SweetAlert("error", "Failed to upload file!");
+                }
+            },
+            error: function () {
+                SweetAlert("error", "Error occurred while uploading file!");
+            }
+        });
+    });
+    $(document).on('click', '.bookFile, .book-thumbnail, .file-icon-container', function(e) {
+        e.preventDefault();
+        const $fileCell = $(this).closest('.bookFile');
+        const fileUrl = $fileCell.data('url');
+
+        if (fileUrl) {
+            window.open(fileUrl, '_blank');
+        }
+    });
 
 </script>

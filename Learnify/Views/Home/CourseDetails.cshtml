@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "CourseDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Page Title -->
+<div class="page-title light-background">
+    <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Course Details</h1>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li class="current">Course Details</li>
+            </ol>
+        </nav>
+    </div>
+</div><!-- End Page Title -->
+<!-- Portfolio Details Section -->
+<section id="portfolio-details" class="portfolio-details section">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+            <div class="col-lg-8">
+
+                <div id="bookFile">
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                    <h3 id="courseTitle">Project information</h3>
+                    <ul>
+                        <li><strong>Category</strong>: <span id="courseCat">Web design</span></li>
+                        <li><strong>Author Name</strong>: <span id="courseAuthor">Elon Musk</span></li>
+                        <li><strong>Published Date</strong>: <span id="coursePublished">2025-01-06</span></li>
+                    </ul>
+                </div>
+                <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                    <h2>Book Description</h2>
+                    <p id="courseDesc">
+                        Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<script>
+    $(document).ready(function(){
+        initFunctionCallDeatils();
+    });
+
+    async function initFunctionCallDeatils(){
+        await bindBookInfo();
+    }
+    function getUrlParameter(name) {
+        var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(window.location.href);
+        return results && results[1] || '';
+    }
+    async function bindBookInfo(){
+        var cid = getUrlParameter('cid');
+        try {
+            let res = await AjaxCall("/Admin/GetBookById", {BookId: cid});
+            if (res && res !== "null" && res !== null) {
+                const jRes = JSON.parse(res);
+                if (jRes.length > 0) {
+                    $("#courseTitle").text(jRes[0]["bookName"]);
+                    $("#courseCat").text(jRes[0]["categoryName"]);
+                    $("#courseAuthor").text(jRes[0]["authorName"]);
+                    $("#coursePublished").text(jRes[0]["publishedDate"]);
+                    $("#courseDesc").empty().append(jRes[0]["bookDescription"]);
+                       // Clear the container first
+                    $("#bookFile").empty();
+
+                    // Get file details from response
+                    const fileUrl = jRes[0]["bookrefFile"];
+                    const fileName = jRes[0]["BookFileName"];
+                    const fileExt = fileName.split('.').pop().toLowerCase();
+
+                    // Create element based on file type
+                    if (['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(fileExt)) {
+                      const img = $('<img>', {
+                        src: fileUrl,
+                        class: 'img-fluid',
+                        css: {
+                          'max-width': '100%',
+                          'height': 'auto'
+                        }
+                      }).on('click', () => window.open(fileUrl, '_blank'));
+
+                      $("#bookFile").append(img);
+                    } else {
+                      const iconContainer = $('<div>', { class: 'file-icon-container' })
+                        .on('click', () => window.open(fileUrl, '_blank'));
+
+                      let iconClass = 'fas fa-file';
+                      switch(fileExt) {
+                        case 'pdf': iconClass += ' text-danger'; break;
+                        case 'doc':
+                        case 'docx': iconClass += ' text-primary'; break;
+                        case 'xls':
+                        case 'xlsx': iconClass += ' text-success'; break;
+                        case 'zip':
+                        case 'rar': iconClass += ' text-muted'; break;
+                      }
+
+                      iconContainer.append(
+                        $('<i>', { class: iconClass + ' fa-4x' }),
+                        $('<div>', {
+                          class: 'file-extension',
+                          text: fileExt.toUpperCase()
+                        })
+                      );
+
+                      $("#bookFile").append(iconContainer);
+                    }
+                }
+            }
+        } catch (error) {
+            console.error("Error fetching categories:", error);
+        }
+    }
+</script>

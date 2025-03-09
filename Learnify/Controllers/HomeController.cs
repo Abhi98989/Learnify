@@ -3,48 +3,98 @@ using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using System.Data;
 using System.Diagnostics;
+using Learnify.Classes;
+using Microsoft.AspNetCore.Http;
 
 namespace Learnify.Controllers
 {
     public class HomeController : Controller
     {
-
-        private readonly string Dbcs;
-
-        public HomeController(IConfiguration configuration)
-        {
-            Dbcs = configuration.GetConnectionString("DefaultConnection");
-        }
+        DataHandeler dh = new DataHandeler();
         public IActionResult Index()
         {
+            ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
             return View();
         }
+        [HttpPost]
+		public IActionResult LogOut()
+		{
+            HttpContext.Session.Clear();
+			return RedirectToAction("index", "Home");
+		}
 
-        public IActionResult login()
+		public IActionResult login()
         {
-            return View();
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+			ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
         }
 
         public IActionResult about()
         {
-            return View();
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
         }
-
-        public IActionResult Ourcourses()
+		public IActionResult Teams()
+		{
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
+		}
+		public IActionResult testimonials()
+		{
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
+		}
+		public IActionResult Services()
+		{
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
+		}
+		public IActionResult Ourcourses()
         {
-            return View();
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
         }
-        public IActionResult register()
+		public IActionResult CourseDetails()
+		{
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
+		}
+		public IActionResult register()
         {
-            return View();
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
         }
         public IActionResult Pricing()
         {
-            return View();
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
         }
         public IActionResult Contact()
         {
-            return View();
+			ViewBag.Message = HttpContext.Session.GetString("isLoggedIn");
+            ViewBag.isAdmin = HttpContext.Session.GetString("isAdmin");
+			ViewBag.User = HttpContext.Session.GetString("fullname");
+			return View();
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
@@ -57,77 +107,68 @@ namespace Learnify.Controllers
         public IActionResult register(register r1)
         {
 
-            if (r1.password != r1.confirmpassword)
-            {
-                ViewBag.Message = "Password and Confirm Password should be same";
-                return View();
-            }
-            try
-            {
-                using SqlConnection con = new SqlConnection(Dbcs);
-                {
-                    using SqlCommand cmd = new SqlCommand("User_register", con);
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@FullName", r1.FullName);
-                    cmd.Parameters.AddWithValue("@email", r1.email);
-                    cmd.Parameters.AddWithValue("@password", r1.password);
-                    con.Open();
-                    if (cmd.ExecuteNonQuery() > 0)
-                    {
-                        ViewBag.Message = "Data Inserted Successfully";
-                        return View("index");
-                    }
-                    else
-                    {
-                        ViewBag.Message = "Data Inserted Failed";
-                    }
-                    con.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Message = ex.Message;
-            }
-
-
-            return View();
-        }
+			try
+			{
+				if (r1.password != r1.confirmpassword)
+				{
+					ViewBag.Message = "Password and Confirm Password should be same";
+					return View();
+				}
+				SqlParameter[] param =
+				{
+					new SqlParameter("@FullName", r1.FullName),
+					new SqlParameter("@email", r1.email),
+					new SqlParameter("@password", r1.password),
+				};
+				int res = dh.InsertUpdate("User_register", param, CommandType.StoredProcedure);
+				if (res > 0)
+				{
+					ViewBag.Message = "Data Inserted Successfully";
+					return RedirectToAction("index", "Home");
+				}
+				else
+				{
+					ViewBag.Message = "Data Insertion Failed";
+                    return View();
+				}
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
+		}
 
 
         [HttpPost]
         public IActionResult Login(loginDetails lg)
-
         {
-            if (lg == null)
-            {
-                return View();
-            }
-            try
-            {
-                using SqlConnection con = new SqlConnection(Dbcs);
+			try
+			{
+				SqlParameter[] param =
                 {
-                    using SqlCommand cmd = new SqlCommand("[User_Login]", con);
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@email", lg.email);
-                    cmd.Parameters.AddWithValue("@password", lg.password);
-                    con.Open();
-                    SqlDataReader rdr = cmd.ExecuteReader();
-                    if (rdr.Read())
-                    {
-                        return RedirectToAction("about", "Home");
-                    }
-                    else
-                    {
-                        ViewBag.Message = "Invalid Credentials";
-                    }
-                    con.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Message = ex.Message;
-            }
-            return View();
+					new SqlParameter("@email", lg.email),
+					new SqlParameter("@password", lg.password),
+				};
+				DataTable res = dh.ReadData("User_Login", param, CommandType.StoredProcedure);
+                if(res.Rows.Count > 0)
+                {
+                    ViewBag.Message = res.Rows[0]["FullName"].ToString();
+                    HttpContext.Session.SetString("email", res.Rows[0]["email"].ToString());
+                    HttpContext.Session.SetString("fullname", res.Rows[0]["FullName"].ToString());
+                    HttpContext.Session.SetString("isAdmin", res.Rows[0]["isAdmin"].ToString());
+					HttpContext.Session.SetString("isLoggedIn", "1");
+					return RedirectToAction("index", "Home");
+				}
+                else
+                {
+					ViewBag.Message = "Invalid Credentials";
+                    return View();
+				}
+			}
+			catch (Exception ex)
+			{
+                throw ex;
+			}
         }
     }
 }

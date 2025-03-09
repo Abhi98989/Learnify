@@ -1,155 +1,204 @@
-﻿<!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section" style="margin-top:100px">
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Our Courses</h2>
-        <p>Explore our comprehensive curriculum designed to empower your learning journey</p>
-    </div><!-- End Section Title -->
-    <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-programming">Story</li>
-                <li data-filter=".filter-design">Science Fiction</li>
-                <li data-filter=".filter-business">Major</li>
-            </ul><!-- End Portfolio Filters -->
-            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+﻿@{
+    ViewData["Title"] = "Our Courses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-programming">
-                    <img src="~/booklist/art.jpg" class="img-fluid" alt="Coding Classroom" onclick="window.open('https://medium.com/', '_blank');">
-                    <div class="portfolio-info">
-                        <h4>Python Fundamentals</h4>
-                        <p>Master the basics of Python programming</p>
-                        <a href="~/img/masonry-portfolio/masonry-portfolio-1.jpg" title="Python Course" data-gallery="portfolio-gallery-programming" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://medium.com/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                    </div>
-                </div><!-- End Portfolio Item -->
+<style>
+    .isotope-container {
+        transition: height 0.3s ease;
+    }
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
-                    <img src="~/booklist/download.jpg" class="img-fluid" alt="Design Workshop" onclick="window.open('pdf/UIDesign.pdf', '_blank');">
-                    <div class="portfolio-info">
-                        <h4>UI/UX Design</h4>
-                        <p>Create stunning user interfaces</p>
-                        <a href="~/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Design Course" data-gallery="portfolio-gallery-design" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                        <a href="course-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                    </div>
-                </div><!-- End Portfolio Item -->
+    .file-icon-wrapper {
+        background: #f8f9fa;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #dee2e6;
+        border-radius: 4px;
+    }
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-business">
-                    <img src="~/booklist/images.jpg" class="img-fluid" alt="Business Meeting" onclick="window.open('pdf/DigitalMarketing.pdf', '_blank');">
-                    <div class="portfolio-info">
-                        <h4>Digital Marketing</h4>
-                        <p>Master online marketing strategies</p>
-                        <a href="~/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Marketing Course" data-gallery="portfolio-gallery-business" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                        <a href="course-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                    </div>
-                </div><!-- End Portfolio Item -->
-                <!-- Add more course items following the same structure -->
-
-            </div><!-- End Portfolio Container -->
-        </div>
-    </div>
-</section><!-- /Portfolio Section -->
-
-<footer id="footer" class="footer">
-    <div class="footer-newsletter">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-6">
-                    <h4>Join Learning Updates</h4>
-                    <p>Subscribe to get latest course updates and learning resources!</p>
-                    <form class="php-email-form">
-                        <div class="newsletter-form"><input type="email" name="email" placeholder="Enter your email"><input type="submit" value="Subscribe"></div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container footer-top">
-        <div class="row gy-4">
-            <div class="col-lg-4 col-md-6 footer-about">
-                <a href="index.html" class="d-flex align-items-center">
-                    <span class="sitename">Learnify</span>
-                </a>
-                <div class="footer-contact pt-3">
-                    <p>123 Learning Street</p>
-                    <p>Knowledge City, ED 12345</p>
-                    <p class="mt-3"><strong>Phone:</strong> <span>+1 234 567 890</span></p>
-                    <p><strong>Email:</strong> <span>info@learnify.com</span></p>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#about">About</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#courses">Courses</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Learning Paths</h4>
-                <ul>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Beginner</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Intermediate</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Advanced</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Certifications</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-12">
-                <h4>Connect With Us</h4>
-                <p>Follow our social media for latest updates and learning tips</p>
-                <div class="social-links d-flex">
-                    <a href="#"><i class="bi bi-twitter-x"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Learnify</strong> <span>All Rights Reserved</span></p>
-        <div class="credits">
-            Designed by <a href="#">Learnify Team</a>
-        </div>
-    </div>
-</footer>
-
-<!-- Responsive Filter Script -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Isotope initialization
-        const iso = new Isotope('.isotope-container', {
-            itemSelector: '.isotope-item',
-            layoutMode: 'masonry'
-        });
-
-        // Filter buttons functionality
-        document.querySelectorAll('.isotope-filters li').forEach(filterBtn => {
-            filterBtn.addEventListener('click', function() {
-                document.querySelector('.filter-active').classList.remove('filter-active');
-                this.classList.add('filter-active');
-                iso.arrange({ filter: this.getAttribute('data-filter') });
-            });
-        });
-
-        // Responsive filter adjustment
-        function adjustFilters() {
-            const filtersContainer = document.querySelector('.isotope-filters');
-            if (window.innerWidth < 768) {
-                filtersContainer.classList.add('flex-column');
-            } else {
-                filtersContainer.classList.remove('flex-column');
-            }
+        .file-icon-wrapper i {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
         }
 
-        window.addEventListener('resize', adjustFilters);
-        adjustFilters();
+    .file-extension {
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #495057;
+    }
+
+    .portfolio-item {
+        margin-bottom: 1.5rem;
+        transition: transform 0.3s ease;
+    }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+        }
+</style>
+
+<!-- Page Title -->
+<div class="page-title light-background">
+    <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio</h1>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li class="current">Portfolio</li>
+            </ol>
+        </nav>
+    </div>
+</div><!-- End Page Title -->
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+
+    <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-product">Card</li>
+                <li data-filter=".filter-branding">Web</li>
+            </ul><!-- End Portfolio Filters -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item Reading_Material">
+                    <img src="~/theme/Sailor/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>App 1</h4>
+                        <p>Lorem ipsum, dolor sit</p>
+                        <a href="~/theme/Sailor/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                        <a href="/Home/CourseDetails" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    </div>
+                </div><!-- End Portfolio Item -->
+
+            </div><!-- End Portfolio Container -->
+
+        </div>
+
+    </div>
+
+</section><!-- /Portfolio Section -->
+<script type="text/javascript">
+    async function getCategory() {
+        try {
+            let res = await AjaxCall("/Admin/GetCategory", {});
+            if (res && res !== "null" && res !== null) {
+                const jRes = JSON.parse(res);
+                if (jRes.length > 0) {
+                    let dom = "<li data-filter='*' class='filter-active'>All</li>";
+                    for (let i = 0; i < jRes.length; i++) {
+                        dom += `<li data-filter=".${jRes[i]["Categoryfilters"]}">${jRes[i]["CategoryName"]}</li>`;
+                    }
+                    // Replace filters & reinitialize Isotope
+                    $(".portfolio-filters").empty().append(dom);
+
+                }
+            }
+        } catch (error) {
+            console.error("Error fetching categories:", error);
+        }
+    }
+
+    async function getBooks() {
+        try {
+            const res = await AjaxCall("/Admin/GetBooks", {});
+            if (!res || res === "null") return;
+
+            const jRes = JSON.parse(res);
+            if (!jRes.length) return;
+
+            const imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
+            let dom = "";
+
+            for (const book of jRes) {
+                const fileName = book.BookFileName || "";
+                const fileExt = fileName.split('.').pop().toLowerCase();
+                const isImage = imageExtensions.includes(fileExt);
+                const filePath = book.bookrefFile;
+
+                // File icon/thumbnail section
+                let fileDisplay;
+                if (isImage) {
+                    fileDisplay = `<img src="${filePath}" class="img-fluid" alt="${fileName}">`;
+                } else {
+                    let iconClass = 'bi bi-file-earmark';
+                    switch(fileExt) {
+                        case 'pdf': iconClass = 'bi bi-file-pdf'; break;
+                        case 'doc': case 'docx': iconClass = 'bi bi-file-word'; break;
+                        case 'xls': case 'xlsx': iconClass = 'bi bi-file-excel'; break;
+                        case 'ppt': case 'pptx': iconClass = 'bi bi-file-ppt'; break;
+                        case 'zip': case 'rar': iconClass = 'bi bi-file-zip'; break;
+                        case 'txt': iconClass = 'bi bi-file-text'; break;
+                    }
+                    fileDisplay = `
+                        <div class="file-icon-wrapper">
+                            <i class="${iconClass}"></i>
+                            <div class="file-extension">${fileExt || 'file'}</div>
+                        </div>`;
+                }
+
+                // Action buttons section
+                const previewLink = isImage
+                    ? `<a href="${filePath}" title="${book.bookName}" data-gallery="portfolio-gallery" class="glightbox preview-link">
+                         <i class="bi bi-zoom-in"></i>
+                       </a>`
+                    : `<a href="${filePath}" title="Download" class="download-link" download>
+                         <i class="bi bi-download"></i>
+                       </a>`;
+
+                dom += `
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${book.Categoryfilters}">
+                        ${fileDisplay}
+                        <div class="portfolio-info">
+                            <h4>${book.bookName}</h4>
+                            <p>Author: ${book.authorName}</p>
+                            <div class="d-flex gap-2">
+                                ${previewLink}
+                                <a href="/Home/CourseDetails?cid=${book.bookId}"
+                                   title="More Details"
+                                   class="details-link">
+                                    <i class="bi bi-link-45deg"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>`;
+            }
+
+            // Update DOM and plugins
+            $(".isotope-container").empty().append(dom);
+
+        } catch (error) {
+            console.error("Error fetching books:", error);
+            // Consider adding user notification here
+        }
+    }
+
+    async function initfncall(){
+        await getCategory();
+        await getBooks();
+        let $grid = $(".isotope-container").isotope({
+            itemSelector: ".isotope-item",
+            layoutMode: "masonry"
+        });
+
+        $(".portfolio-filters li").click(function () {
+            $(".portfolio-filters li").removeClass("filter-active");
+            $(this).addClass("filter-active");
+            let filterValue = $(this).attr("data-filter");
+            $grid.isotope({ filter: filterValue });
+        });
+    }
+
+    $(document).ready(() => {
+        initfncall();
     });
+
 </script>

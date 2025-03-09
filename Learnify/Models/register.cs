@@ -2,9 +2,10 @@
 {
     public class register
     {
-        public String FullName { get; set; }
-        public String email { get; set; }
-        public String password { get; set; }
-        public String confirmpassword { get; set; }
-    }
+        public string? FullName { get; set; }
+        public string? email { get; set; }
+        public string? password { get; set; }
+        public string? confirmpassword { get; set; }
+		public bool isAdmin { get; set; }
+	}
 }

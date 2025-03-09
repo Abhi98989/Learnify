@@ -6,7 +6,7 @@ namespace Learnify.Classes
 {
 	public class DataHandeler
 	{
-		public string _connectionString = "Data Source=ABHISHEK\\SQLEXPRESS;Initial Catalog=Learnify;Integrated Security=True;";//Startup.connectiontring;
+		public string _connectionString = "Data Source=.;Initial Catalog=Learnify;Integrated Security=True;";
 
 		//---------------for Insert operation -----------------
 		public int Insert(string sql, SqlParameter[] param, CommandType cmdType)
